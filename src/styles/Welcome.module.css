@@ -1,0 +1,8 @@
+.welcomeHeader{
+    flex:1 1 auto;
+}
+.welcomeHeader h3{
+    font-size:24px;
+    font-weight:normal;
+    margin:0 0 5px;
+}

@@ -1,0 +1,23 @@
+:root {
+    --main-background-color: #8db7f3;
+	--site-global-font-color:#fff;
+
+    --theme-mode-checked-color:#8db7f3;
+
+    --container-box-color: #364254;
+    --search-background-color:#47566d;
+    --search-button-color: #8db7f3;
+    --search-button-icon-color: white;
+    --tab-active-color: #8db7f3;
+    --todo-single-background: #47566d;
+
+    --single-check-border-color: #8db7f3;
+    --single-check-complete-color: #8db7f3;
+
+    --single-remove-background-color: #8db7f3;
+    --single-remove-icon-color: white;
+
+    --tab-counter-background-color: #8db7f3;
+    --tab-counter-completed-background-color: #8db7f3;
+    --tab-counter-font-color: white;
+}

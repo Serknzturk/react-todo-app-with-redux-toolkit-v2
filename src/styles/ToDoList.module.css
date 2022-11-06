@@ -1,0 +1,56 @@
+.loadingListErrors{
+    position:relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.loadingListErrors > button{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--search-button-color);
+    color:var(--search-button-icon-color);
+    cursor: pointer;
+}
+.tabHeaders{
+    position: relative;
+    font-size: 14px;
+    margin:25px 0 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 45px;
+}
+.tabHeaders > *{
+    cursor: pointer;
+}
+.tabHeaders > .active{
+    border-bottom: 1px solid var(--tab-active-color);
+}
+.listHolder{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.baloon{
+    position: absolute;
+    width:20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: var(--tab-counter-background-color);
+    font-size: 10px;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 5px;
+    color:var(--tab-counter-font-color);
+}
+.baloonCompleted{
+    background-color: var(--tab-counter-completed-background-color);
+}

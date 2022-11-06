@@ -1,0 +1,11 @@
+.mainAppWrapper{
+    position: relative;
+    width:960px;
+    max-width:calc(100% - 60px);
+    margin: 45px auto 30px;
+}
+.containerBox{
+    background:var(--container-box-color);
+    padding: 30px 25px;
+    border-radius: 10px;
+}

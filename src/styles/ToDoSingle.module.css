@@ -1,0 +1,57 @@
+.toDoSingle{
+    position: relative;
+    padding:15px;
+    background-color: var(--todo-single-background);
+    border-radius: 5px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+.toDoSingle input[type="checkbox"]{
+    display: none;
+}
+.toDoSingle input[type="checkbox"] + span{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    background-color: transparent;
+    border-radius: 100%;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid var(--single-check-border-color);
+}
+.toDoSingle input:checked + span::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: var(--single-check-border-color);
+    top: 25%;
+    left: 25%;
+    border-radius: 100%;
+    pointer-events: none;
+}
+.singleTitle{
+    position: relative;
+    flex: 1 1 auto; 
+    margin: 0 30px 0 0; 
+}
+.singleDate{
+    display: block;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.singleRemove{
+    background: var(--single-remove-background-color);
+    color: var(--single-remove-icon-color);
+    border: none;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}

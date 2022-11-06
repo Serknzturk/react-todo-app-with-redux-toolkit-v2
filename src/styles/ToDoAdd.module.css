@@ -1,0 +1,57 @@
+.toDoAddHolder{
+    position: relative;
+    margin-top:30px;
+}
+.toDoAddText{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding:10px 60px 10px 20px;
+    height: 48px;
+    border-radius: 24px;
+    width: 100%;
+    display: block;
+    background: var(--search-background-color);
+    color: var(--site-global-font-color);
+}
+.toDoAddText::placeholder{
+    opacity: 0.4;
+    font-size:14px;
+    color: var(--site-global-font-color);
+}
+.toDoAddButton{
+    position: absolute;
+    border:none;
+    width:48px;
+    height:48px;
+    border-radius: 100%;
+    right:0px;
+    top: 0;
+    background:var(--search-button-color);
+    cursor: pointer;
+}
+.toDoAddButton + span{
+    position: absolute;
+    top: 13px;
+    right:15px;
+    width: 24px;
+    height:24px;
+    pointer-events: none;
+}
+.toDoAddButton + span::before,
+.toDoAddButton + span::after{
+    content: "";
+    background-color: var(--search-button-icon-color);
+    position: absolute;
+    width:18px;
+    height:3px;
+    top:calc(50% - 2px);
+    right:0px;
+    z-index: 9;
+    pointer-events: none;
+    transition: all .3s;
+    transform: rotate(0deg);
+}
+.toDoAddHolder.typing .toDoAddButton + span::after{
+    transform:rotate(90deg);
+}
