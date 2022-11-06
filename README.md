@@ -8,12 +8,14 @@ A react application with a smooth GUI for storing tasks.
 
 ## Installation
 
- 1. Clone the repo by entering `gh repo clone Serknzturk/react-todo-app-with-redux-toolkit-v2` to your terminal
- 2. Open app directory in your Terminal
- 3. CD into server directory `cd .\server\`
- 4. Start server `npm run watch`
- 5. Open another terminal in root app directory
- 6. Start the app by running `npm run start
+ 1. Clone the repo by entering `git clone http://github.com/Serknzturk/react-todo-app-with-redux-toolkit-v2` to your terminal
+ 2. CD into app directory in your terminal `cd .\react-todo-app-with-redux-toolkit-v2\`
+ 3. Run `npm install` for installing dependencies. (It may take some time as Material-UI is a big project)
+ 4. CD into server directory `cd .\server\`
+ 5. Run `npm install` for installing server dependencies (Monorepo)
+ 6. Start server `npm run watch`
+ 7. Open another terminal in root app directory
+ 8. Start the app by running `npm run start`
 
 ## Case Details
 Project has been built for a special case request. Here you can find the requested case details along with their implementation.
